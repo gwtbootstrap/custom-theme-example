@@ -1,0 +1,26 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
+    <g:HTMLPanel>
+        <b:Container>
+            <b:Navbar>
+                <b:Brand>Bootstrap</b:Brand>
+                <b:Nav>
+                    <b:NavLink>Test</b:NavLink>
+                    <b:NavLink href="http://www.google.com">Another Test</b:NavLink>
+                </b:Nav>
+                <b:NavForm size="1"/>
+                <b:Nav alignment="RIGHT">
+                    <b:NavLink>Test</b:NavLink>
+                </b:Nav>
+                <b:NavText alignment="RIGHT">Right</b:NavText>
+                <b:NavSearch size="2" placeholder="Search" alignment="RIGHT"/>
+            </b:Navbar>
+
+            <b:Hero>
+                <b:Heading size="1">Hello Custom Theme!</b:Heading>
+                <b:Button type="WARNING">Warning</b:Button>
+            </b:Hero>
+        </b:Container>
+    </g:HTMLPanel>
+</ui:UiBinder>

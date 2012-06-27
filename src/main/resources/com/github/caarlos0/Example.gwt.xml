@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='Example'>
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='com.google.gwt.junit.JUnit'/>
+    <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+    <inherits name="com.github.gwtbootstrap.Bootstrap"/>
+    <entry-point class='com.github.caarlos0.client.Example'/>
+    <source path='client'/>
+    <source path='shared'/>
+
+    <!--pay attention in this part-->
+    <source path='resources'/>
+    <replace-with class="com.github.caarlos0.resources.ExampleConfigurator">
+        <when-type-is class="com.github.gwtbootstrap.client.ui.config.Configurator"/>
+    </replace-with>
+    <public path="resources">
+        <exclude name="** /*.java"/>
+        <exclude name="** /*.class"/>
+    </public>
+
+</module>
