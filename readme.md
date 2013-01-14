@@ -1,6 +1,6 @@
 # GWT-Bootstrap custom theme example
 
-[Read the tutorial](http://caarlos0.github.com/code/2012/06/27/using-a-custom-bootstrap-theme-in-gwt-bootstrap/)
+[Read the tutorial](http://caarlos0.github.com/posts/using-a-custom-bootstrap-theme-in-gwt-bootstrap/)
 
 &nbsp;
 &nbsp;
